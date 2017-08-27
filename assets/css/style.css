@@ -41,6 +41,7 @@ header{
     /* position: relative;
     height: 200px;
     width: 75%; */
+    margin: 0 auto;
     background-color: pink;
 }
 

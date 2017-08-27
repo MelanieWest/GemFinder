@@ -17,10 +17,10 @@ $(".btn").on("click",function(){
 
   var Score  = 0;
 
-  //initialize a random # between 15 and 50:
+  //initialize a random # between 19 and 120:
   // this will be the target value to hit
 
-  var ranNum = Math.floor(Math.random()*35)+15;
+  var ranNum = Math.floor(Math.random()*101)+19;
   console.log(ranNum);
 
   $(".goal").html(ranNum);
@@ -33,15 +33,15 @@ $(".btn").on("click",function(){
   $(".Losses").html(" L: " + losses);
    
   //initialize the values of each snowflake
-  //(let them take values between 1 and 10)
+  //(let them take values between 1 and 12)
 
-  var val1 = Math.floor(Math.random()*10+1);
+  var val1 = Math.floor(Math.random()*12+1);
   $("#img1").val(val1);
-  var val2 = Math.floor(Math.random()*10+1);
+  var val2 = Math.floor(Math.random()*12+1);
   $("#img2").val(val2);
-  var val3 = Math.floor(Math.random()*10+1);
+  var val3 = Math.floor(Math.random()*12+1);
   $("#img3").val(val3);
-  var val4 = Math.floor(Math.random()*10+1);
+  var val4 = Math.floor(Math.random()*12+1);
   $("#img4").val(val4);
   console.log(val1,val2,val3,val4);
   
