@@ -23,7 +23,7 @@ header{
     /* position: absolute;
     top: 70px;
     width: 33%;  */
-    height: 120px;
+    height: 150px;
     background-color: lightcyan;
 }
 
@@ -46,9 +46,9 @@ header{
 }
 
 #img1, #img2, #img3, #img4, #img5 {
-    margin: 10px;
-    height: 130px;
-    width: 130px;
+    margin: 5px;
+    /* height: 130px; */
+    width: 150px;
 }
 
 footer{

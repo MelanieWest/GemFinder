@@ -20,7 +20,7 @@ $(".btn").on("click",function(){
   //initialize a random # between 19 and 120:
   // this will be the target value to hit
 
-  var ranNum = Math.floor(Math.random()*101)+19;
+  var ranNum = Math.floor(Math.random()*102+19);
   console.log(ranNum);
 
   $(".goal").html(ranNum);
