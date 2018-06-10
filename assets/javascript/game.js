@@ -49,7 +49,7 @@ $(".btn").on("click",function(){
   
  
 $(".flake").on("click", function(){
-
+    console.log($(this));
     var s = $(".score").html();
     var g = $(".goal").html();
 

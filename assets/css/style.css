@@ -1,4 +1,6 @@
 body{
+    background-image: url("../images/wallppr_snowywoods.jpg");
+    background-repeat: no-repeat;
     background-color: gray;
 }
 
@@ -9,10 +11,11 @@ header{
     position: absolute;
     top: 0px;
     width: 100%;
-    height: 60px;
+    height: 80px;
     background-color: gainsboro;
     font-size: 40px;
     padding: 10px;
+    margin: 10 px;
     color: teal;
 }
 .btn{
@@ -32,7 +35,7 @@ header{
     /* position: absolute;
     top: 70px; */
     /* width: 33%; */
-    height: 120px;
+    height: 150px;
     background-color: white;
 }
 
